@@ -6,7 +6,7 @@
 #include "funcPack.h"
 
 void area(int a, int b){
-    printf("Площа прямокутника: " "%d\n", a+b);
+    printf("Площа прямокутника: %d\n" , a*b);
 }
 
 void factorial(int a){
@@ -14,7 +14,7 @@ void factorial(int a){
     for(int i = 1; i <= a; i++){
         res *= i;
     }
-    printf("Факторіал числа: ""%d\n", res);
+    printf("Факторіал числа: %d\n", res);
 }
 
 void avenger(int num[], int size){
@@ -23,5 +23,5 @@ void avenger(int num[], int size){
         res += num[i];
     }
     res /= size;
-    printf("Середнє значення масиву: " "%f", res);
+    printf("Середнє значення масиву: %f\n", res);
 }

@@ -1,4 +1,3 @@
-#include <stdio.h>
 #include "funcPack.h"
 int main() {
     int nums[] = {7,8};
