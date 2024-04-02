@@ -7,6 +7,6 @@
 
 void area(int a, int b);
 void factorial(int a);
-void avenger(int num[], int size);
+void average(int num[], int size);
 
 #endif //LAB4_FUNCPACK_H
