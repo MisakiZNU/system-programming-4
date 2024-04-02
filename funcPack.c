@@ -17,7 +17,7 @@ void factorial(int a){
     printf("Факторіал числа: %d\n", res);
 }
 
-void avenger(int num[], int size){
+void average (int num[], int size){
     float res;
     for (int i = 0; i < size; i++){
         res += num[i];
